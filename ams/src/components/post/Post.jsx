@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Post({ post }) {
   return (
     <div className="post">
-      {console.log(post)}
+      {/* {console.log(post)} */}
       {post.photo ? (
         <img className="postImg" src={post.photo} alt="" />
       ) : (
